@@ -1,0 +1,22 @@
+.cast {
+  padding: 20px 40px;
+}
+
+.castItem {
+  list-style-type: none;
+}
+
+.castImage {
+  width: 80px;
+  height: auto;
+}
+
+.castBullet {
+  position: relative;
+}
+
+.castBullet::before {
+  position: absolute;
+  content: ' \25CF';
+  left: -20px;
+}

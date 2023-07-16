@@ -1,0 +1,26 @@
+.header {
+  width: 100%;
+  padding: 20px 40px;
+  box-shadow: 0px 5px 10px 0px rgba(101, 101, 101, 1);
+}
+
+.headerNavigation {
+  display: flex;
+  gap: 15px;
+}
+
+.headerLink {
+  font-family: 'Roboto', sans-serif;
+  font-size: 24px;
+  font-weight: 600;
+  text-decoration: none;
+  color: black;
+}
+
+.isActive {
+  font-family: 'Roboto', sans-serif;
+  font-size: 24px;
+  font-weight: 600;
+  text-decoration: none;
+  color: hotpink;
+}
